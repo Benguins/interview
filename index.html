@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/owl.carousel.css">
+    <link rel="stylesheet" href="./styles/owl.theme.default.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/fd53a0b663.js" crossorigin="anonymous"></script>
+
+    <script defer src="./javascript/javascript.js"></script>
+
+    <link rel ="stylesheet" href="./styles/index.css">
+    <title>FABB Homepage</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar_Sction01_Top">
+                <p class="navbar_Sction01_Top_Text_Left">Want to buy call us 0800 254 0900</p>
+                <p class="navbar_Sction01_Top_Text_Right">Seasonal sales<i class="fa-solid fa-arrow-right-long"></i></p>
+            </div>
+            <div class="navbar_Sction02_Middle">
+                <div class="navbar_Sction02_Middle_Element01">
+                    <form action="#"class="navbar_Form">
+                        <input type="text" placeholder="Search Fabb Furnature" name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="navbar_Sction02_Middle_Element02">
+                   <div class="navbar_Section02_Middle_Element02_Img_Container">
+                        <img class="fabb_Logo_Navbar"src="./images/fabb_Lofo.png">
+                   </div>
+                </div>
+                <div class="navbar_Sction02_Middle_Element03">
+                    <div class="navbar_Sction02_Middle_Element03_Location">
+                        <i class="fa-solid fa-location-dot fa-xl"></i>
+                        <p class="navbar_Sction02_Middle_Element03_Location_Text">Visit Us</p>
+                    </div>
+                    <div class="navbar_Sction02_Middle_Element03_Login">
+                        <i class="fa-solid fa-user fa-xl"></i>
+                        <p class="navbar_Sction02_Middle_Element03_Location_Text">Login</p>
+                    </div>
+                    <div class="navbar_Sction02_Middle_Element03_Basket">
+                        <i class="fa-solid fa-basket-shopping fa-xl"></i>
+                        <p class="navbar_Sction02_Middle_Element03_Location_Text">Basket</p>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar_Section01_Bottom">
+              <a href="#" class="navbar_Section01_Bottom_Active">Home</a>
+              <div class="navbar_Section01_Bottom_Div">
+                <button class="navbar_Section01_Bottom_Div_Btn">Extra Sale Savings <i class="fa fa-caret-down"></i></button>
+                <div class="navbar_Section01_Bottom_Div_Links">
+                  <div class="navbar_Section01_Bottom_Div_Links_container">
+                  <a href="#">Extra Saving On Sofas</a>
+                  <a href="#">Extra Saving On Bedrooms</a>
+                  <a href="#">Extra Savings On Dinings</a>
+                  </div>
+                </div>
+              </div>
+              <div class="navbar_Section01_Bottom_Div">
+                <button class="navbar_Section01_Bottom_Div_Btn">Sofas <i class="fa fa-caret-down"></i></button>
+                <div class="navbar_Section01_Bottom_Div_Links">
+                  <div class="navbar_Section01_Bottom_Div_Links_container">
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Fabric Sofas</a>
+                      <div id="sofas_Fabric" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">
+                          <a href="">Fabric Sofas</a>
+                          <a href="">Fabric Corner Sofas</a>
+                          <a href="">Sofa Beds</a>
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick01()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Leather Sofas</a>
+                      <div id="sofas_Leather" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">
+                          <a href="">Leather Sofas</a>
+                          <a href="">Leather Corner Sofas</a>
+                          <a href="">Leather Recliners</a>
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick02()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Corner Sofas</a>
+                      <div id="sofas_Corner" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">
+                          <a href="">Fabric Corner Sofas</a>
+                          <a href="">Leather Corner Sofas</a>
+                          <a href="">Sofa Beds</a>
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick03()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Recliners</a>
+                      <div id="sofas_Recliners" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">
+                          <a href="">Fabric Recliners</a>
+                          <a href="">Leather Recliner Sofas</a>
+                          <a href="">Manuel Recliners</a>
+                          <a href="">Power Recliners</a>
+                          <a href="">Recliner Chairs</a>
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick04()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Chairs</a>
+                      <div id="sofas_Chair" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">
+                          <a href="">Fabric Chairs</a>
+                          <a href="">Leather Chairs</a>
+                          <a href="">Accent Chairs</a>
+                          <a href="">Studio Chairs</a>
+                          <a href="">Rise & Tilt</a>
+                          <a href="">Recliner Chairs</a>
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick05()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Footstolls</a>
+                      <div id="sofas_Footstools" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">
+                          <a href="">Leather Footstolls</a>
+                          <a href="">Storage Footstolls</a>
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick06()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Floring</a>
+                      <div id="sofas_Floring" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">Floors</a>
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              <div class="navbar_Section01_Bottom_Div">
+                <button class="navbar_Section01_Bottom_Div_Btn">Beds <i class="fa fa-caret-down"></i></button>
+                <div class="navbar_Section01_Bottom_Div_Links">
+                  <div class="navbar_Section01_Bottom_Div_Links_container">
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick07()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Bases</a>
+                      <div id="beds_Bases" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">2'6 Small Single</a>
+                          <a href="">3'0 Single</a>
+                          <a href="">4'0 Small Double</a>
+                          <a href="">4'6 Double</a>
+                          <a href="">5'0 King</a>
+                          <a href="">6'0 Super King</a>
+                          <a href="">Guest Beds</a>
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick08()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Matresses</a>
+                      <div id="beds_Matresses" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">Soft</a>
+                          <a href="">Medium</a>
+                          <a href="">Firm</a>
+                          <a href="">Extra Firm</a>
+                          <a href="">Shop All</a>                         
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick09()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Bed Frames</a>
+                      <div id="beds_Bed_Frames" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">Wooden</a>
+                          <a href="">Mirrored</a>
+                          <a href="">Metal</a>
+                          <a href="">Fabric</a>
+                          <a href="">Soft Beds</a>                         
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick10()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Headboards</a>
+                      <div id="beds_Headboards" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">2'6 Small Single</a>
+                          <a href="">3'0 Single</a>
+                          <a href="">4'0 Small Double</a>
+                          <a href="">4'6 Double</a>
+                          <a href="">5'0 King</a>
+                          <a href="">6'0 Super King</a>                         
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick11()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Pillows</a>
+                      <div id="beds_Pillows" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          </div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              <div class="navbar_Section01_Bottom_Div">
+                <button class="navbar_Section01_Bottom_Div_Btn">Dining<i class="fa fa-caret-down"></i></button>
+                <div class="navbar_Section01_Bottom_Div_Links">
+                  <div class="navbar_Section01_Bottom_Div_Links_container">
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick12()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Dining Sets</a>
+                      <div id="beds_Dining_Dining_Sets" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">Wooden</a>
+                          <a href="">Marble</a>
+                          <a href="">Concrete</a>
+                          <a href="">Glass</a>                                                
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick13()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Dining Tables</a>
+                      <div id="beds_Dining_Dining_Tables" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">Wooden</a>
+                          <a href="">Marble</a>
+                          <a href="">Gloss</a>
+                          <a href="">Concrete</a>
+                          <a href="">Glass</a>                         
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick14()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Dining Chairs</a>
+                      <div id="beds_Dining_Dining_Chairs" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">Leather</a>
+                          <a href="">Wooden</a>
+                          <a href="">Fabric</a>
+                          <a href="">Benches</a>
+                          <a href="">Stools</a>                         
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick15()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Living Room</a>
+                      <div id="beds_Dining_Living_Room" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">Console Tables</a>
+                          <a href="">TV Units</a>
+                          <a href="">Cofiee Tables</a>
+                          <a href="">Lamp & Side Tables</a>
+                          <a href="">Nest of Tables</a>                         
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick16()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Storage</a>
+                      <div id="beds_Dining_Storage" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">Side Boards</a>
+                          <a href="">Display Cabinets</a>
+                          <a href="">Bookcases</a>
+                          <a href="">Desks</a>                                                 
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick17()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Flooring</a>
+                      <div id="beds_Dining_Floring" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">Rugs</a>                                               
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              <div class="navbar_Section01_Bottom_Div">
+                <button class="navbar_Section01_Bottom_Div_Btn">Bedroom<i class="fa fa-caret-down"></i></button>
+                <div class="navbar_Section01_Bottom_Div_Links">
+                  <div class="navbar_Section01_Bottom_Div_Links_container">
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick18()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Wardrobes</a>
+                      <div id="beds_Bedroom_Wardrobes" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">Midi Wardrobes</a>
+                          <a href="">2 Door Wardrobes</a>
+                          <a href="">3 Door Wardrobes</a>
+                          <a href="">4 Door Wardrobes</a>
+                          <a href="">5 Door Wardrobes</a>  
+                          <a href="">6 Door Wardrobes</a>                       
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick19()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Chest of Drawes</a>
+                      <div id="beds_Bedroom_Chest_Of_Drawes" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">1 Drawer Chest</a>
+                          <a href="">2 Drawer Chest</a>
+                          <a href="">3 Drawer Chest</a>
+                          <a href="">4 Drawer Chest</a>
+                          <a href="">5 Drawer Chest</a>  
+                          <a href="">6 Drawer Chest</a>                         
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick20()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Bed Frames</a>
+                      <div id="beds_Bedroom_Bed_Frames" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">Wooden</a>
+                          <a href="">Mirrored</a>
+                          <a href="">Fabric</a>
+                          <a href="">Metal</a>
+                          <a href="">Soft Bed Frame</a>                         
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick21()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Bedroom Furnature</a>
+                      <div id="beds_Bedroom_Bedroom_Furnature" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">Desk</a>
+                          <a href="">Dressing Tables</a>
+                          <a href="">Bedroom Chairs</a>
+                          <a href="">Dressing Table Stools</a>                                                 
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick22()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Accessories</a>
+                      <div id="beds_Bedroom_Accessories" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">Plain Rugs</a>
+                          <a href="">pattern Rugs</a>
+                          <a href="">Mirrors</a>                                                  
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="navbar_Section01_Bottom_Div_Links_Click">
+                      <a href="" onclick="navClick23()" class="navbar_Section01_Bottom_Div_Links_Click_Btn">Wiemann</a>
+                      <div id="beds_Bedroom_Wiemann" class="dropdown-content">
+                        <div class="navbar_Section01_Bottom_Div_Links_container1">                       
+                          <a href="">Fitted Bedroom Furnature</a>                                              
+                          <a href="">Shop All</a>
+                          </div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              <div class="navbar_Section01_Bottom_Div">
+                <button class="navbar_Section01_Bottom_Div_Btn">Fast Delivery<i class="fa fa-caret-down"></i></button>
+                <div class="navbar_Section01_Bottom_Div_Links">
+                  <div class="navbar_Section01_Bottom_Div_Links_container">
+                    <a href="#">Fast Delivery Sofas</a>
+                    <a href="#">Fast Delivery Beds</a>
+                    <a href="#">Fast Delivery Dining</a>
+                    <a href="#">Fast Delivery Bedroom</a>
+                    <a href="#">Fast Delivery Living</a>
+                    <a href="#">Fast Delivery Rugs</a>
+                    </div>
+                </div>
+              </div>                
+          </div>
+        </nav>
+    </header>
+
+    <button onclick="topFunction()" id="btnTop" title="Go to top"></button>
+
+    <section class="section01_Wrappper">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 img-fluid section01_Wrappper_Img" src="./images/Carousel01_Img04.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 img-fluid section01_Wrappper_Img" src="./images/Carousel01_Img05.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 img-fluid section01_Wrappper_Img" src="./images/Carousel01_Img06.jpg" alt="Third slide">
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="section02_Text_Love">
+        <p class="section02_Text_Love_Text">We Love</p>
+    </section>
+
+    <section class="section02_Wrapper">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 img-fluid section01_Wrappper_Img" src="./images/Carousel01_Img04.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 img-fluid section01_Wrappper_Img" src="./images/Carousel01_Img05.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 img-fluid section01_Wrappper_Img" src="./images/Carousel01_Img06.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </section>
+
+    <section class="section02_Text_Love">
+        <p class="section02_Text_Love_Text">Deals</p>
+    </section>
+
+    <section class="section03_Wrapper">
+      <div class="row owl-carousel owl-theme py-5">
+        <div class="col-md">
+          <img src="./images/Carousel01_Img01.jpg" class="img-fluid w-100">
+        </div>
+        <div class="col-md">
+          <img src="./images/Carousel01_Img02.jpg" class="img-fluid w-100">
+        </div>
+        <div class="col-md">
+          <img src="./images/Carousel01_Img03.jpg" class="img-fluid w-100">
+        </div>
+        <div class="col-md">
+          <img src="./images/Carousel01_Img04.jpg" class="img-fluid w-100">
+        </div>
+        <div class="col-md">
+          <img src="./images/Carousel01_Img05.jpg" class="img-fluid w-100">
+        </div>
+        <div class="col-md">
+          <img src="./images/Carousel01_Img06.jpg" class="img-fluid w-100">
+        </div>
+        <div class="col-md">
+          <img src="./images/Carousel01_Img01.jpg" class="img-fluid w-100">
+        </div>
+        <div class="col-md">
+          <img src="./images/Carousel01_Img01.jpg" class="img-fluid w-100">
+        </div>
+        <div class="col-md">
+          <img src="./images/Carousel01_Img01.jpg" class="img-fluid w-100">
+        </div>
+      </div>
+    </section>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="./javascript/owl.carousel.min.js"></script>
+
+<script>
+  
+</script>
+
+
+</script>
+</body>
+</html>
+
+
+ 
+ 
+
+
+
+
+
